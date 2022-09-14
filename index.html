@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Coffee App Project</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top-logo">
+      <img
+        class="img-logo"
+        src="coffee_masters_logo.png"
+        alt="coffee-logo"
+      />Coffee Masters
+    </div>
+    <section class="billing-page">
+      <div class="billing-info">
+        <div class="billing-items">
+          <h3>ITEMS</h3>
+          <div class="billing-products">
+            <div class="billing-products-description">
+              <div class="billing-products-quantity">
+                <p>1x</p>
+              </div>
+              <div class="billing-products-items">
+                <p class="product">Cappuccino</p>
+                <p class="product-desc">Lite foam</p>
+              </div>
+            </div>
+            <div class="billing-products-price">
+              <p>$3.35</p>
+            </div>
+          </div>
+          <div class="billing-products">
+            <div class="billing-products-description">
+              <div class="billing-products-quantity">
+                <p>1x</p>
+              </div>
+              <div class="billing-products-items">
+                <p class="product">Cappuccino</p>
+                <p class="product-desc">Life milk</p>
+                <p class="product-desc">Double expresson</p>
+              </div>
+            </div>
+            <div class="billing-products-price">
+              <p>$3.85</p>
+            </div>
+          </div>
+          <div class="billing-products">
+            <div class="billing-products-description">
+              <div class="billing-products-quantity">
+                <p>1x</p>
+              </div>
+              <div class="billing-products-items">
+                <p class="product">Croissant</p>
+                <p class="product-desc">Butter</p>
+              </div>
+            </div>
+            <div class="billing-products-price">
+              <p>$2.45</p>
+            </div>
+          </div>
+        </div>
+        <div class="billing-payment-info">
+          <div class="billing-name">
+            <h3>NAME</h3>
+            <div class="billing--input">
+              <label for="billing-name" class="input-label"
+                >Name for order</label
+              >
+              <input
+                id="billing-name"
+                class="billing-name-input"
+                placeholder="Ford Prefect"
+              />
+            </div>
+          </div>
+          <div class="billing-payment">
+            <h3>PAYMENT</h3>
+            <div class="billing-payment-layout">
+              <div class="billing--input">
+                <label for="billing-payment" class="input-label"
+                  >Card Number</label
+                >
+                <input
+                  id="billing-payment"
+                  class="billing-name-input"
+                  placeholder="1234 5678 9012 3456"
+                />
+              </div>
+              <div class="billing--input">
+                <label for="billing-ccv" class="input-label">CCV Number</label>
+                <input
+                  id="billing-ccv"
+                  class="billing-name-input input-ccv"
+                  placeholder="001"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="total-layout">
+        <div class="billing-totals">
+          <div class="billing-subtotal">
+            <h6>Subtotal:</h6>
+            <h6>S9.65</h6>
+          </div>
+          <div class="billing-tax">
+            <h6>Tax:</h6>
+            <h6>S0.82</h6>
+          </div>
+          <div class="billing-total">
+            <h6>Total:</h6>
+            <h6>S10.47</h6>
+          </div>
+        </div>
+        <button>Place Order</button>
+      </div>
+    </section>
+  </body>
+</html>

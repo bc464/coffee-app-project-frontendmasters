@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  background-color: #efefef;
+}
+.top-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #43281c;
+  padding: 10px;
+  color: #fbf2c0;
+}
+.img-logo {
+  height: 50px;
+}
+.billing-page {
+  padding: 20px;
+}
+.billing-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.billing-items {
+  padding: 5px 20px 10px 10px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  background-color: #eee1d5;
+}
+h3 {
+  margin-bottom: 20px;
+  color: #43281c;
+}
+.billing-products {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.billing-products:not(:last-child) {
+  border-bottom: 1px solid #ddb892;
+}
+.billing-products-description {
+  display: flex;
+  gap: 10px;
+}
+
+.product-desc {
+  color: #b08968;
+}
+.billing-payment-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.billing-name {
+  padding: 10px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  background-color: #eee1d5;
+}
+.billing--input {
+  position: relative;
+  /* display: inline-block; */
+}
+.billing-name-input {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px #885a2d solid;
+  width: 100%;
+  padding: 8px;
+  border-radius: 100px;
+  font-size: 18px;
+  text-indent: 18px;
+}
+.input-label {
+  background-color: #eee1d5;
+  color: #885a2d;
+  font-size: 11px;
+  position: absolute;
+  left: 25px;
+  top: -7px;
+  padding: 0 2px;
+}
+.billing-payment-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input-ccv {
+  max-width: 200px;
+}
+
+.billing-payment {
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  background-color: #eee1d5;
+  padding: 10px;
+}
+.total-layout {
+  display: flex;
+  flex-direction: column;
+  justify-items: baseline;
+}
+.billing-totals {
+  width: 200px;
+  margin: 150px auto 10px;
+}
+.billing-subtotal,
+.billing-tax,
+.billing-total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 15px;
+}
+.billing-total {
+  margin-top: 15px;
+}
+button {
+  width: 100%;
+  background-color: #eee1d5;
+  text-align: center;
+  padding: 8px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
